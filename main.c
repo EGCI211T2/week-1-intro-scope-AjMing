@@ -5,11 +5,12 @@ void useLocal();
 void useStaticLocal();
 void useGlobal();
 
-int x=10;  //global -->1
+int x=1;  //global -->1
 
 int main(int argc, char **agrv)
 { //argument count  
    printf("Global x in main is %d \n",x);
+   
    int x=5;// local in main
 
    
@@ -58,7 +59,6 @@ void useStaticLocal(){
 
 void useGlobal(){
    
-    
     printf("\nlocal x is %d on entering useGlobal\n",x);
     
     x*=10;   
