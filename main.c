@@ -1,7 +1,7 @@
 /*******************************************************************************/
 #include <stdio.h>
 
-void useLocal();
+void useLocal()
 void useStaticLocal();
 void useGlobal();
 
